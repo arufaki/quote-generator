@@ -1,0 +1,59 @@
+@import url("/src/index.css");
+
+.quote-wrap {
+  border-left: 8px solid var(--light-yellow);
+  padding-left: 100px;
+}
+
+.quote-text {
+  max-width: 614px;
+  color: var(--black);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.quote-gap {
+  margin-top: 140px;
+}
+
+.author-name {
+  color: var(--dark-grey);
+  font-size: 36px;
+  font-weight: 700;
+  margin: 50px 0 140px 15%;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 400px) {
+  .quote-wrap {
+    padding-left: 50px;
+  }
+  .quote-text {
+    font-size: 25px;
+  }
+
+  .author-name {
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 640px) {
+  .quote-wrap {
+    padding-left: 75px;
+  }
+  .quote-text {
+    font-size: 28px;
+  }
+  .author-name {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 720px) {
+  .quote-text {
+    font-size: 32px;
+  }
+  .author-name {
+    font-size: 32px;
+  }
+}

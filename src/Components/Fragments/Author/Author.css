@@ -1,0 +1,53 @@
+@import url("/src/index.css");
+
+.author-master {
+  width: 100%;
+}
+
+.author-wrap {
+  margin: 100px 0 0 10%;
+  transition: 0.2s all ease-in-out;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.author-wrap:hover {
+  background-color: var(--dark-grey);
+
+  .authorName {
+    color: var(--silver);
+  }
+
+  .arrow {
+    color: var(--silver);
+    margin-right: 20px;
+    transition: 0.2s all ease-in-out;
+  }
+}
+
+.author-title {
+  padding: 50px 30px;
+}
+
+.authorName {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--grey);
+  transition: 0.2s all ease-in-out;
+}
+
+.genre {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--gray);
+}
+
+.arrow {
+  margin-right: 35px;
+  color: white;
+  cursor: pointer;
+}

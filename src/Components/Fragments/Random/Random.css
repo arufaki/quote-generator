@@ -1,0 +1,29 @@
+@import url("/src/index.css");
+
+.random-master {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+  margin-top: 35px;
+}
+
+.heading-title {
+  color: var(--grey);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.autorenew.autorenew {
+  color: var(--grey);
+  transition: 0.2s ease, 0.2s ease, 0.3s ease;
+}
+
+.random-master:hover {
+  .autorenew {
+    transform: rotate(90deg);
+    cursor: pointer;
+  }
+}

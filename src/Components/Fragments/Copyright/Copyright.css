@@ -1,0 +1,15 @@
+@import url("../../../index.css");
+
+.text-wrap.text-wrap,
+.copyright.copyright {
+  font-family: var(--montserrat);
+  color: var(--gray);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.copyright.copyright {
+  font-weight: 700;
+  text-decoration-line: underline;
+}
