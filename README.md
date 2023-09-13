@@ -35,7 +35,7 @@
 
 ## Overview
 
-![screenshot]([https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png](https://github.com/Arufaki/quote-generator/blob/65ec832013459203f04073b64c00d2f8d456e097/src/assets/preview.png))
+![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
 
 ### Built With
 
